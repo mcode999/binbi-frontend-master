@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
         },
         {
           key: 'rsbin.top',
-          title: 'Bin智能 BI',
+          title: '湘ICP备2023022738号',
           href: 'https://ant.design',
           blankTarget: true,
         },

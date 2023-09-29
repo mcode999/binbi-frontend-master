@@ -82,6 +82,11 @@ const Register: React.FC = () => {
         }}
       >
         <LoginForm
+          submitter={{
+            searchConfig: {
+              submitText: '注册'
+            }
+          }}
           contentStyle={{
             minWidth: 280,
             maxWidth: '75vw',
@@ -89,7 +94,7 @@ const Register: React.FC = () => {
           logo={<img alt="logo" src="/biLogo.png"/>}
           title="Bin智能 BI"
           subTitle={
-            <a href="https://yupi.icu" target="_blank" rel="noreferrer">
+            <a href="https://gitee.com/zgbinrs/aigc-intelligent-chart-front" target="_blank" rel="noreferrer">
               RsBin的原创项目
             </a>
           }

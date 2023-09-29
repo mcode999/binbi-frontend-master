@@ -7,7 +7,7 @@
 _roadhog-api-doc
 
 # production
-/dist
+/binbi-frontend-master
 
 # misc
 .DS_Store

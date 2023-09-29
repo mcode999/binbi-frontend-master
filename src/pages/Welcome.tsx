@@ -41,7 +41,7 @@ const Welcome: React.FC = () => {
           <SmileTwoTone style={{color:"#0015ff"}} /> 智能 BI 平台 <HeartTwoTone twoToneColor="#eb2f96" />
         </Typography.Title>
         <Paragraph style={{color:"blue"}}>
-          我们的智能BI平台是一个革命性的数据分析工具，为用户提供了轻松、快速且智能化的数据分析体验。
+          Bin智能BI平台是一个革命性的数据分析工具，为用户提供了轻松、快速且智能化的数据分析体验。
         </Paragraph>
         <Paragraph style={{color:"#0d9d8e",fontWeight:'bold'}}>
           <pre>{blockContent}</pre>

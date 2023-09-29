@@ -39,10 +39,12 @@ const Login: React.FC = () => {
     const userInfo = await getLoginUserUsingGET();
     if (userInfo) {
       flushSync(() => {
-        setInitialState((s) => ({
-          ...s,
-          currentUser: userInfo,
-        }));
+        setInitialState((s) => {
+          return ({
+            ...s,
+            currentUser: userInfo,
+          });
+        });
       });
     }
   };
@@ -88,7 +90,7 @@ const Login: React.FC = () => {
           logo={<img alt="logo" src="/biLogo.png" />}
           title="Bin智能 BI"
           subTitle={
-            <a href="https://yupi.icu" target="_blank">
+            <a href="https://gitee.com/zgbinrs/aigc-intelligent-chart-front" target="_blank">
               RsBin的原创项目
             </a>
           }
