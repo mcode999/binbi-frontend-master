@@ -1,7 +1,7 @@
 **/*.svg
 .umi
 .umi-production
-/dist
+/binbi-frontend-master
 .dockerignore
 .DS_Store
 .eslintignore
